@@ -13,7 +13,7 @@ const User = require("./models/user");
 const Game_loop = require("./models/game_loop")
 require('dotenv').config()
 
-const GAME_LOOP_ID = '62b7e66b1da7901bfc65df0d'
+const GAME_LOOP_ID = process.env.GAME_LOOP_ID
 
 const { Server } = require('socket.io')
 const http = require('http')
@@ -42,6 +42,7 @@ server.listen(3001, () => {
 mongoose.connect(
   process.env.MONGOOSE_DB_LINK,
   {
+    
     useNewUrlParser: true,
     useUnifiedTopology: true,
   },

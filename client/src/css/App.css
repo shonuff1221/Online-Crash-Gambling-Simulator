@@ -155,9 +155,9 @@ ul {
 }
 
 .grid-elements {
-  background-color: #393e40;
+  background-color: #000000;
   color: #fff;
-  border: #303436 1px solid;
+  border: #af560e 5px solid;
   padding: 20px;
   min-width: 0px;
   min-height: 0px;
@@ -491,7 +491,7 @@ h2 small {
   position: relative;
   width: 20%;
   height: 250%;
-  background: linear-gradient(#00ccff, #d400d4);
+  background: linear-gradient(#c0840c, #c2cf07);
   animation: animate 2s linear infinite;
 }
 

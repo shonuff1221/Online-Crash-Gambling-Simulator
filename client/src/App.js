@@ -709,7 +709,7 @@ function App() {
 
       <nav className="navbar">
         <div className="container">
-          <span className="logo">Crash Gambling Simulator</span>
+          <span className="logo">Arb Crash</span>
           <ul className="nav">
 
             {(userData && userData !== "No User Authentication") ? (
